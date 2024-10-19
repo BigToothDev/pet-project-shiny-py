@@ -14,7 +14,7 @@ import json
 
 #with open('./app_files/geoBoundaries-UKR-ADM1.geojson', 'r', encoding='utf-8') as geo_file:
 #    ukraine_geojson = json.load(geo_file)
-base_path = Path('./app_files')
+base_path = Path('./docs')
 df_ukr_pop_region_all_flows_2021 = pd.read_csv(base_path / 'ukr_pop_region_all_flows_total_2021.csv', sep=",", decimal=".")
 df_ukr_pop_region_all_flows_2020 = pd.read_csv(base_path / 'ukr_pop_region_all_flows_total_2020.csv', sep=",", decimal=".")
 df_ukr_pop_region_all_flows_2019 = pd.read_csv(base_path / 'ukr_pop_region_all_flows_total_2019.csv', sep=",", decimal=".")
